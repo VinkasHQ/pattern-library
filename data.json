@@ -61,6 +61,11 @@
                         "#000000,#212121,#424242,#616161",
 						"#E0E0E0,#EEEEEE,#F5F5F5,#FFFFFF"
                     ]
+                },
+				{
+                    "group": "branding",
+                    "name": "logo",
+                    "title": "Logo"
                 }
 			]
 		},
