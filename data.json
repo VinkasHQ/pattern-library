@@ -1,0 +1,105 @@
+{
+    "project_logo": "https://cdn.vinkas.com/images/branding/vinkas/logo/1x/color_249x72dp.png",
+    "project_favicon": "https://cdn.vinkas.com/images/branding/vinkas/favicon/32px/favicon.ico",
+    "project_name": "Vinkas",
+    "project_url": "http://vinkas.com",
+    "copyright_start_year": null,
+    "client_name": "Vinkas Tech",
+    "client_url": "http://tech.vinkas.com",
+    "creators": [
+        {
+            "name": "Vinoth Kannan",
+            "url": null
+        }
+    ],
+    "theme": {
+        "border_color": "#EEEEEE",
+        "highlight_color": "#F5F5F5",
+        "brand_color": "#3F51B5",
+        "background_color": "#FAFAFA",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": false,
+        "show_version": true,
+        "max_width": null
+    },
+    "assets": {
+        "css": ["astrum.css"],
+        "js": []
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": "https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700"
+    },
+    "content": {
+        "show_first_page_on_load": true,
+        "title": "Overview",
+        "pages": [
+            {
+                "name": "index",
+                "title": "Index",
+                "file": "./readme.md"
+            }
+        ]
+    },
+    "groups": [
+		{
+			"name": "branding",
+			"title": "Branding",
+			"components": [
+				{
+                    "group": "branding",
+                    "name": "color-scheme",
+                    "title": "Colour Scheme",
+                    "type": "colors",
+                    "colors": [
+                        "#4CAF50,#8BC34A,#CDDC39,#FFEB3B",
+                        "#EF5350,#FF7043,#FFA726,#FFCA28",
+                        "#3F51B5,#1565C0,#0288D1,#00ACC1",
+                        "#000000,#212121,#424242,#616161",
+						"#E0E0E0,#EEEEEE,#F5F5F5,#FFFFFF"
+                    ]
+                }
+			]
+		},
+        {
+            "name": "typography",
+            "title": "Typography",
+            "components": [
+				{
+                    "group": "typography",
+                    "name": "thin",
+                    "title": "Thin",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "light",
+                    "title": "Light",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "regular",
+                    "title": "Regular",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "semibold",
+                    "title": "Semi Bold",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "bold",
+                    "title": "Bold",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
+    "version": "1.0.0"
+}

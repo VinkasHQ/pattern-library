@@ -1,0 +1,1 @@
+We use the [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) typeface served by [Google Fonts](https://fonts.google.com).
